@@ -1,0 +1,18 @@
+.main-text-c {
+  text-align: center;
+  margin-bottom: 30px;
+
+  .main-title {
+    padding: 50px 30px 0 30px;
+    line-height: 1;
+    margin-bottom: 20px;
+
+    .main-title-text {
+      color: $very-dark-magenta;
+    }
+  }//end .main-title
+
+  .main-para-c{
+     color: $dark-grayish-magenta;
+  }
+}
