@@ -15,6 +15,7 @@ body {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 .container {
@@ -47,9 +48,36 @@ img {
   grid-row-gap: 15px;
 }
 
+.cards .card {
+  background: #502050;
+  padding: 40px 30px;
+  border-radius: 0.45rem;
+}
+
 .cards .card .card-inner {
   display: flex;
-  background-color: red;
+  align-items: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.cards .card .card-inner .card-profile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.cards .card .card-inner .card-info .card-name {
+  font-weight: 700;
+}
+
+.cards .card .card-inner .card-info .verified-buyer {
+  color: #ee68a4;
+}
+
+.cards .card .card-text {
+  color: white;
 }
 
 .ratings-c {
