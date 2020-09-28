@@ -5,21 +5,47 @@
   margin: 0;
 }
 
-body{
-   font-size: 15px;
-   margin: 0;
-   padding: 0;
-   line-height: 1.4;
-   font-family: $spartan;
+body {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: $spartan;
+  height: 100vh;
+  position: relative;
+
+  &::after {
+    content: url("../images/bg-pattern-top-mobile.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    @media only screen and (min-width: $mobile) {
+    content: url("../images/bg-pattern-top-desktop.svg");
+
+    }
+  }
+
+  &::before {
+    content: url("../images/bg-pattern-bottom-mobile.svg");
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    @media only screen and (min-width: $mobile) {
+    content: url("../images/bg-pattern-bottom-desktop.svg");
+
+    }
+  }
+
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
 }
 
-.container{
+.container {
   width: 90%;
-  max-width: $desktop;
+  max-width: $mobile;
   margin: 0 auto;
+
 }
