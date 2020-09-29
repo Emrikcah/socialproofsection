@@ -3,33 +3,26 @@
   grid-row-gap: 15px;
   text-align: center;
   margin-bottom: 2.5rem;
-  
 
   .ratings {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     padding: 1rem 2.5rem;
     font-size: 0.8rem;
     font-weight: $bold;
     border-radius: 0.5rem;
     color: $very-dark-magenta;
     background: $light-grayish-magenta;
-    
 
     &::before {
-      
-      content: 
-      url("../images/icon-star.svg")
-      url("../images/icon-star.svg")
-      url("../images/icon-star.svg")
-      url("../images/icon-star.svg")
-      url("../images/icon-star.svg");
+      content: url("../images/icon-star.svg") url("../images/icon-star.svg")
+        url("../images/icon-star.svg") url("../images/icon-star.svg") url("../images/icon-star.svg");
       display: flex;
       justify-content: space-evenly;
       width: 45%;
-     
-      
+
       margin-bottom: 0.7rem;
     }
   }
