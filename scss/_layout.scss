@@ -40,6 +40,11 @@
         align-items: center;
         width: 500px;
 
+        &::before {
+         
+          margin-bottom: 0;
+        }
+
         &:nth-child(1) {
           transform: translateX(-8rem);
         }
