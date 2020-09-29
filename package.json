@@ -1,0 +1,23 @@
+{
+  "name": "socialproofsection",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emrikcah/socialproofsection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emrikcah/socialproofsection/issues"
+  },
+  "homepage": "https://github.com/Emrikcah/socialproofsection#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
