@@ -128,7 +128,7 @@ img {
 }
 
 .ratings-c .ratings::before {
-  content: \url("../images/icon-star.svg") \url("../images/icon-star.svg") \url("../images/icon-star.svg") \url("../images/icon-star.svg") \url("../images/icon-star.svg");
+  content: url("../images/icon-star.svg") url("../images/icon-star.svg") url("../images/icon-star.svg") url("../images/icon-star.svg") url("../images/icon-star.svg");
   display: flex;
   justify-content: space-evenly;
   width: 45%;
