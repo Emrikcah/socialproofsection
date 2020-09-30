@@ -38,3 +38,23 @@
 
   
 }
+
+@media (min-width: 1500px) {
+  .cards{
+    .card {
+      width: 450px;
+
+      &:nth-child(1) {
+        transform: translateY(-4rem);
+      }
+      &:nth-child(2) {
+        transform: translateY(-2rem);
+      }
+
+      .card-text {
+        line-height: 2;
+        font-size: 17px;
+      }
+    }
+  }
+}

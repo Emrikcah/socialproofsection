@@ -10,11 +10,25 @@
     .main-title-text {
       color: $very-dark-magenta;
     }
-  }//end .main-title
+  } 
 
-  .main-para-c{
-     color: $dark-grayish-magenta;
+  .main-para-c {
+    color: $dark-grayish-magenta;
   }
+}
 
-  
+@media (min-width: 1500px) {
+  .main-text-c {
+    .main-title {
+      padding: 0;
+    }
+
+    .main-title-text {
+      font-size: 3.5rem;
+    }
+
+    .main-para-c {
+      font-size: 1rem;
+    }
+  }
 }
