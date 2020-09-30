@@ -19,7 +19,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    @media only screen and (min-width: $mobile) {
+    @media (min-width: $mobile) {
     content: url("../images/bg-pattern-top-desktop.svg");
 
     }
@@ -30,7 +30,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    @media only screen and (min-width: $mobile) {
+    @media(min-width: $mobile) {
     content: url("../images/bg-pattern-bottom-desktop.svg");
 
     }
